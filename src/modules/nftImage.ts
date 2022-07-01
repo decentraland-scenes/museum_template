@@ -50,7 +50,7 @@ export function addNFTImage(){
         nftPlane.addComponent(pictureMat)
 
         let frame = new Entity()
-        frame.addComponent(new GLTFShape("models/frame.glb"))
+        frame.addComponent(new GLTFShape("models/museum/frame.glb"))
         frame.addComponent(new Transform({
             position: img.position,
             rotation: Quaternion.Euler(0, imageYRotation, 180),

@@ -112,7 +112,7 @@ export default {
         height: 720
     },
     sculpture: {
-        modelSrc: "models/sculpture.glb",
+        modelSrc: "models/museum/sculpture.glb",
         position: new Vector3(0, 0.4, 1.5)
     }
 }

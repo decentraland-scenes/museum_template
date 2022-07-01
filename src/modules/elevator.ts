@@ -10,7 +10,7 @@ class elevatorSystem {
     secondFloorPos = new Vector3(0, 7.5, -4.8)
 
     constructor() {
-        this.platform.addComponent(new GLTFShape("models/elevator.glb"))
+        this.platform.addComponent(new GLTFShape("models/museum/elevator.glb"))
         this.platform.addComponent(new Transform({
             position: new Vector3(0, 0.3, -4.8)
         }))

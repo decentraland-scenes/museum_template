@@ -29,7 +29,7 @@ export function addLogo() {
     const bottomLogoData = config.logo.bottom
 
     const logoFrame = new Entity()
-    logoFrame.addComponent(new GLTFShape("models/logo_frame.glb"))
+    logoFrame.addComponent(new GLTFShape("models/museum/logo_frame.glb"))
     logoFrame.addComponent(new Transform({
         position: config.logo.bottom.position,
         rotation: Quaternion.Euler(0, 0, 0)
